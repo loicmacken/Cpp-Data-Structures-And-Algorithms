@@ -139,11 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Combination.cpp" />
+    <ClCompile Include="Factorial.cpp" />
+    <ClCompile Include="Fibonacci.cpp" />
+    <ClCompile Include="Power.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="NaturalNumbers.cpp" />
+    <ClCompile Include="TaylorExponent.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Combination.h" />
+    <ClInclude Include="Factorial.h" />
+    <ClInclude Include="Fibonacci.h" />
     <ClInclude Include="NaturalNumbers.h" />
+    <ClInclude Include="Power.h" />
+    <ClInclude Include="TaylorExponent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
